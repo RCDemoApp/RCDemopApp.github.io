@@ -1,13 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // <CHANGE> Added output: 'export' for static site generation required by GitHub Pages
-  output: 'export',
-  typescript: {
-    ignoreBuildErrors: true,
-  },
+  output: "export",
+  basePath: "/RCDemopApp.github.io",
+  assetPrefix: "/RCDemopApp.github.io/",
   images: {
     unoptimized: true,
   },
-}
+};
 
 export default nextConfig
