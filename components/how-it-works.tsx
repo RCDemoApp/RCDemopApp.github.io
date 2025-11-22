@@ -2,16 +2,16 @@ import Image from "next/image"
 
 export function HowItWorks() {
   return (
-    <section id="how-it-works" className="py-24 bg-muted/30 relative overflow-hidden">
+    <section id="how-it-works" className="py-24 bg-primary relative overflow-hidden text-white">
       {/* Background Texture for visual interest */}
-      <div className="absolute right-0 top-0 h-full w-1/3 opacity-[0.03] pointer-events-none">
+      <div className="absolute right-0 top-0 h-full w-1/3 opacity-10 pointer-events-none mix-blend-overlay">
         <Image src="/arrows.png" alt="texture" fill className="object-cover" />
       </div>
 
       <div className="container mx-auto px-4 relative">
         <div className="mx-auto max-w-2xl text-center mb-20">
-          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl text-foreground mb-4">Cómo funciona</h2>
-          <div className="h-1 w-20 bg-secondary mx-auto rounded-full"></div>
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4">Cómo funciona</h2>
+          <div className="h-1 w-20 bg-white/30 mx-auto rounded-full"></div>
         </div>
 
         <div className="grid gap-12 lg:grid-cols-3">
@@ -33,16 +33,16 @@ export function HowItWorks() {
             },
           ].map((item, i) => (
             <div key={i} className="relative flex flex-col items-center text-center group">
-              <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-white border-2 border-primary shadow-sm text-xl font-bold text-primary transition-transform group-hover:scale-110">
+              <div className="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-white border-2 border-white/20 shadow-sm text-xl font-bold text-primary transition-transform group-hover:scale-110">
                 {item.step}
               </div>
               <h3 className="mb-3 text-xl font-bold">{item.title}</h3>
-              <p className="text-muted-foreground max-w-xs">{item.desc}</p>
+              <p className="text-white/90 max-w-xs">{item.desc}</p>
 
               {/* Connecting arrow for desktop - simplified visual representation */}
               {i !== 2 && (
-                <div className="hidden lg:block absolute top-8 left-[60%] w-[80%] h-[2px] bg-gradient-to-r from-primary/30 to-transparent pointer-events-none">
-                  <div className="absolute right-0 -top-1 h-3 w-3 border-t-2 border-r-2 border-primary/30 rotate-45"></div>
+                <div className="hidden lg:block absolute top-8 left-[60%] w-[80%] h-[2px] bg-gradient-to-r from-white/30 to-transparent pointer-events-none">
+                  <div className="absolute right-0 -top-1 h-3 w-3 border-t-2 border-r-2 border-white/30 rotate-45"></div>
                 </div>
               )}
             </div>
