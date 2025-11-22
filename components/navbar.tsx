@@ -8,7 +8,7 @@ export function Navbar() {
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2">
           <div className="relative h-10 w-32">
-            <Image src="/logo.png" alt="RE Cambia" fill className="object-contain object-left" priority />
+            <Image src="logo.png" alt="RE Cambia" fill className="object-contain object-left" priority />
           </div>
         </Link>
 
