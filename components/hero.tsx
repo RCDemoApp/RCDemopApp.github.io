@@ -7,7 +7,7 @@ export function Hero() {
     <section className="relative overflow-hidden bg-muted/30 py-20 lg:py-32">
       {/* Texture Background */}
       <div className="absolute inset-0 opacity-5 pointer-events-none">
-        <Image src="/arrows.png" alt="texture" fill className="object-cover" />
+        <Image src="arrows.png" alt="texture" fill className="object-cover" />
       </div>
 
       <div className="container relative mx-auto px-4">
@@ -15,7 +15,7 @@ export function Hero() {
           <div className="flex flex-col items-start gap-6">
             <div className="inline-flex items-center rounded-full border border-secondary/20 bg-secondary/10 px-3 py-1 text-sm font-medium text-secondary">
               <span className="flex h-2 w-2 rounded-full bg-secondary mr-2 animate-pulse"></span>
-              En vivo en 10+ Universidades
+              En vivo en la Unicolmayor
             </div>
 
             <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl">
@@ -45,7 +45,7 @@ export function Hero() {
                     className="h-8 w-8 rounded-full border-2 border-background bg-gray-200 flex items-center justify-center text-xs overflow-hidden"
                   >
                     <Image
-                      src={`/student-face.png?height=32&width=32&query=student face ${i}`}
+                      src={`student-face.png?height=32&width=32&query=student face ${i}`}
                       alt="user"
                       width={32}
                       height={32}
@@ -54,7 +54,7 @@ export function Hero() {
                   </div>
                 ))}
               </div>
-              <p>Con la confianza de 4,000+ estudiantes</p>
+              <p>Con la confianza de 400+ estudiantes</p>
             </div>
           </div>
 

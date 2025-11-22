@@ -5,30 +5,30 @@ import Image from "next/image"
 const items = [
   {
     title: "Calculus Early Transcendentals",
-    price: "$45.00",
+    price: "$45000.00",
     category: "Libros",
-    image: "/calculus-textbook.jpg",
+    image: "calculus-textbook.jpg",
     campus: "Campus Principal",
   },
   {
     title: "Graphing Calculator TI-84",
-    price: "$80.00",
+    price: "$80000.00",
     category: "Electrónica",
-    image: "/graphing-calculator.jpg",
+    image: "graphing-calculator.jpg",
     campus: "Facultad de Ciencias",
   },
   {
     title: "Kit de Dibujo Arquitectónico",
-    price: "$35.00",
+    price: "$35000.00",
     category: "Materiales",
-    image: "/architectural-drawing-kit.jpg",
+    image: "architectural-drawing-kit.jpg",
     campus: "Facultad de Artes",
   },
   {
     title: "Mini Nevera para Dormitorio",
-    price: "$50.00",
+    price: "$50000.00",
     category: "Muebles",
-    image: "/mini-fridge.jpg",
+    image: "mini-fridge.jpg",
     campus: "Residencia A",
   },
 ]

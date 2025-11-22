@@ -8,7 +8,7 @@ export function Footer() {
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
           <div className="space-y-4">
             <div className="relative h-8 w-24">
-              <Image src="/logo.png" alt="RE Cambia" fill className="object-contain object-left brightness-0 invert" />
+              <Image src="logo.png" alt="RE Cambia" fill className="object-contain object-left brightness-0 invert" />
             </div>
             <p className="text-sm leading-relaxed max-w-xs text-gray-400">
               El mercado n.º 1 de estudiante a estudiante. Construyendo una comunidad sostenible para campus
