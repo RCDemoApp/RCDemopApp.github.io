@@ -5,7 +5,7 @@ export function HowItWorks() {
     <section id="how-it-works" className="py-24 bg-primary relative overflow-hidden text-white">
       {/* Background Texture for visual interest */}
       <div className="absolute right-0 top-0 h-full w-1/3 opacity-10 pointer-events-none mix-blend-overlay">
-        <Image src="/arrows.png" alt="texture" fill className="object-cover" />
+        <Image src="arrows.png" alt="texture" fill className="object-cover" />
       </div>
 
       <div className="container mx-auto px-4 relative">
